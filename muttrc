@@ -1,0 +1,39 @@
+# Sven's draconian header weeding - lol, taken from the mutt manual
+ignore *
+unignore from date subject to cc
+unignore organization organisation x-mailer: x-newsreader: x-mailing-list:
+unignore posted-to:
+
+# use vim-like ~'s at the bottom of the email
+set tilde
+
+set sort=threads
+set ascii_chars=yes
+
+# Mailling List subscriptions:
+lists council@mathsoc
+subscribe council@mathsoc
+lists linux-doc
+subscribe linux-doc
+lists beowulf@beowulf.org
+subscribe beowulf@beowulf.org
+lists beowulf-announce
+subscribe beowulf-announce
+lists kernel-janitors
+subscribe kernel-janitors
+lists linux-next
+subscribe linux-next
+lists kernel-testers
+subscribe kernel-testers
+lists linux1394-devel
+subscribe linux1394-devel
+lists tcpdump-workers
+subscribe tcpdump-workers
+lists sed-users
+subscribe sed-users
+lists Gambit-list
+subscribe Gambit-list
+lists wlsg
+subscribe wlsg
+lists wsic
+subscribe wsic

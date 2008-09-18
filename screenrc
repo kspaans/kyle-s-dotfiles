@@ -1,0 +1,23 @@
+# Let's turn off the REALLY annoying visual bell.
+vbell off
+
+# Use a cool mode-line!
+hardstatus alwayslastline # Let's turn off the REALLY annoying visual bell.
+vbell off
+
+# Use a cool mode-line!
+hardstatus alwayslastline '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}'
+
+######
+# Setup default starting windows
+screen -t IRC   0 ssh kspaans@cmclub.uwaterloo.ca
+chdir /home/co-opDA/four/alison/OSI-SAF_runs/newverif
+screen -t DATA  1
+split 
+focus down
+select 0
+resize 12
+chdir /home/co-opDA/four/FORTRAN/interpo/OSI_interpo
+screen -t CODE  2
+select 0
+chdir /home/co-opDA

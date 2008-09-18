@@ -1,0 +1,12 @@
+[user]
+	name  = Kyle Spaans
+	email = kspaans@student.math.uwaterloo.ca
+
+[diff]
+	color = auto
+
+[pager]
+	color = true
+
+[status]
+	color = auto
