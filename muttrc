@@ -4,11 +4,31 @@ unignore from date subject to cc
 unignore organization organisation x-mailer: x-newsreader: x-mailing-list:
 unignore posted-to:
 
+set mbox_type=Maildir
+
 # use vim-like ~'s at the bottom of the email
 set tilde
 
 set sort=threads
 set ascii_chars=yes
+
+##mailboxes /var/mail/kspaans
+# I've got procmail doing some sorting for me
+mailboxes /u/kspaans/Mail/beowulf
+#mailboxes /u/kspaans/Mail/linux
+mailboxes /u/kspaans/Mail/linux-next
+mailboxes /u/kspaans/Mail/linux-kernel
+mailboxes /u/kspaans/Mail/linux-kernel-patch
+mailboxes /u/kspaans/Mail/kernel-janitors
+mailboxes /u/kspaans/Mail/kernel-newbies
+mailboxes /u/kspaans/Mail/kernel-testers
+mailboxes /u/kspaans/Mail/ieee1394-dev
+mailboxes /u/kspaans/Mail/real
+mailboxes /u/kspaans/Mail/normal
+#mailboxes /u/kspaans/Mail/backup
+mailboxes /u/kspaans/Mail/kernel-doc
+mailboxes /u/kspaans/Mail/linux-tux3
+
 
 # Mailling List subscriptions:
 lists council@mathsoc
@@ -37,3 +57,5 @@ lists wlsg
 subscribe wlsg
 lists wsic
 subscribe wsic
+lists tux3
+subscribe tux3
